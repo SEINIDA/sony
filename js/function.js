@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	let smallintervalKey = null;
 
-	let smallnowIdx = Math.floor(Math.random()*5); //현재 보여지고 있는 슬라이드의 인덱스번호 0~4
+	let smallnowIdx = Math.floor(Math.random()*2); //현재 보여지고 있는 슬라이드의 인덱스번호 0~4
 	let smalloldIdx = smallnowIdx; //직전에 보여졌던 슬라이드의 인덱스번호
 
 	//초기화작업
