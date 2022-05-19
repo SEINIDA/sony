@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+body{
+	overflow-x: hidden;
+}
 #wrap{
 	width: 1900px;
 	height: 100%;
@@ -476,6 +478,7 @@ p.righttop>img{
 	text-indent: -9999px;
 	background-image: url(./../images/icons.png);
 	background-position: -62px -24px;
+	background-color: #000;
 	border: 10px solid #000;
 	cursor: pointer;
 }
@@ -652,6 +655,7 @@ section>.bigslides > .btn_auto {
 	background-image: url(./../images/icons.png);
 	background-position: -62px -24px;
 	cursor: pointer;
+	background-color: #000;
 	border: 10px solid #000;
 	z-index: 300;
 }
@@ -702,7 +706,7 @@ section>.slides {
 	width: 500px;
 	height: 500px;
 	margin: 0 auto;
-	border: 1px solid #000;
+	
 }
 
 section>.slides > .slides-container {
@@ -841,7 +845,8 @@ section>.slides > .btn_auto {
 	background-image: url(./../images/icons.png);
 	background-position: -62px -24px;
 	cursor: pointer;
-	border: 10px solid #000;
+background-color: #000;
+border: 10px solid #000;
 	z-index: 300;
 }
 
@@ -1024,6 +1029,7 @@ section>.smallslides > .btn_auto {
 	background-image: url(./../images/icons.png);
 	background-position: -62px -24px;
 	cursor: pointer;
+	background-color: #000;
 	border: 10px solid #000;
 	z-index: 300;
 }
@@ -1049,7 +1055,7 @@ display: none;
 section>.one{
 	
 	width: 1900px;
-	border: 1px solid #000;
+
 	overflow: hidden;
 }
 section>.one>li:nth-of-type(1){
